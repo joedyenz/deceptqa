@@ -123,14 +123,15 @@
   <p>Below is a comparison table of DeepSeek, GLM, and Qwen evaluated on the benchmark.</p>
 
   <div class="info-box">
-    <h2>What is MyBenchmark?</h2>
+    <h2>What is DeceptQA?</h2>
     <p>
-      MyBenchmark is an evaluation dataset designed to test reasoning, factual
-      accuracy, and multi-step inference across modern large language models. 
+      DeceptQA is a question answering benchmark that assesses models' ability to provide coherent responses when they are faced with context-influencing perturbations. 
     </p>
     <p>
-      It provides structured test cases, metadata, and explanations, helping
-      researchers evaluate reliability and robustness.
+      This is achieved by the creation of faulty premises attached into the question that try to coax the model into adopting a particular discourse that deviates from its original answer. 
+    </p>
+    <p>
+      The objective is to demonstrate the necessity of reasoning mechanisms in models during QA tasks to ensure they can behave coherently across different tasks despite any direct or indirect, intentional or unintentional perturbations, and thus become trustable. 
     </p>
   </div>
 
@@ -159,6 +160,11 @@
       <td>Qwen2.5-VL-72B-Instruct</td>
       <td>[NOTES]</td>
     </tr>
+      <td>ChatGPT</td>
+      <td>[pending]</td>
+      <td>GPT-5</td>
+      <td>[NOTES]</td>
+    </tr>
   </table>
 </div>
 
@@ -166,6 +172,7 @@
 
 </body>
 </html>
+
 
 
 
